@@ -1,0 +1,39 @@
+<svg width="440" height="120" viewBox="0 0 440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wordmark" x1="22" y1="10" x2="418" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2F6FB"/>
+      <stop offset="0.5" stop-color="#B9C8DA"/>
+      <stop offset="1" stop-color="#6E829E"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="436" height="116" rx="18" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="2"/>
+
+  <text
+    x="24"
+    y="54"
+    fill="url(#wordmark)"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="50"
+    font-weight="700"
+    letter-spacing="4.5"
+  >
+    AUTOSERVE
+  </text>
+
+  <line x1="24" y1="73" x2="416" y2="73" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="1.5"/>
+
+  <text
+    x="26"
+    y="98"
+    fill="#AFC1D7"
+    fill-opacity="0.95"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="16"
+    font-weight="600"
+    letter-spacing="5.2"
+  >
+    PERFORMANCE ATELIER
+  </text>
+</svg>
+
