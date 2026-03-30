@@ -76,7 +76,7 @@ class AppointmentController extends Controller
         ->paginate(10)
         ->withQueryString();
 
-    return view('moderator.appointments.index', [
+    return view('moderator.Appointments.index', [
         'appointments' => $appointments,
         'q' => $q,
     ]);
