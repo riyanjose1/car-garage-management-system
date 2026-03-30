@@ -62,7 +62,7 @@
                 <p class="text-xs text-white/50 mt-1">Calculated from completed service invoices</p>
             </div>
 
-            <button onclick="downloadChart()"
+            <button onclick="downloadProfitChart()"
                 class="rounded-xl bg-white px-4 py-2 text-sm font-medium text-black hover:bg-white/90 transition">
                 Download Chart
             </button>
