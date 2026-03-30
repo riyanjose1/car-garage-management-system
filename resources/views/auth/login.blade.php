@@ -79,6 +79,13 @@
                             Sign in
                         </button>
                     </form>
+
+                    <div class="mt-6 text-center text-sm text-neutral-300">
+                        Need a new account?
+                        <a href="{{ route('register') }}" class="text-white hover:text-[#c9d8eb] transition">
+                            Sign up
+                        </a>
+                    </div>
                 </div>
             </section>
         </div>
