@@ -30,6 +30,18 @@
                     <h2 class="text-3xl font-bold text-white mb-2">Welcome back</h2>
                     <p class="text-neutral-300 mb-8">Sign in to continue to your dashboard</p>
 
+                    @if (session('success'))
+                        <div class="mb-5 rounded-2xl border border-emerald-400/30 bg-emerald-400/10 px-4 py-3 text-sm text-emerald-100">
+                            {{ session('success') }}
+                        </div>
+                    @endif
+
+                    @if ($errors->any())
+                        <div class="mb-5 rounded-2xl border border-rose-400/30 bg-rose-400/10 px-4 py-3 text-sm text-rose-100">
+                            {{ $errors->first() }}
+                        </div>
+                    @endif
+
                     <form method="POST" action="{{ route('login') }}" class="space-y-5">
                         @csrf
 
@@ -38,6 +50,7 @@
                             <input
                                 type="email"
                                 name="email"
+                                value="{{ old('email') }}"
                                 required
                                 autofocus
                                 class="w-full px-4 py-3 rounded-xl bg-white/[0.05] text-white
